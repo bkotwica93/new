@@ -6,32 +6,34 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Projekt okładek CD",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+      "Tworzę unikalne okładki płyt, które oddają charakter Twojej muzyki. Każdy projekt jest dopasowany do stylu artysty, łącząc kreatywność z profesjonalnym podejściem. Moje okładki stanowią integralną część artystycznego przekazu, budując wizualną tożsamość Twojego albumu.",
+    href: "services/projektowanie-okladek-muzycznych-plyt",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Logo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+      "Profesjonalne projektowanie logo, które wyróżnia firmę na tle konkurencji. Tworzę unikalne i dopasowane do branży logotypy, budując silną tożsamość wizualną. Każdy projekt jest starannie opracowywany, uwzględniając potrzeby biznesu oraz oczekiwania klientów.",
+    href: "services/projektowanie-logo-i-logotypow",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "Branding",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+      "Profesjonalny branding to klucz do wyróżnienia Twojej firmy na rynku. Oferuję kompleksowe usługi, które pomogą zbudować spójny i atrakcyjny wizerunek marki, zwiększając jej rozpoznawalność i zaufanie klientów. Skontaktuj się ze mną, aby dowiedzieć się, jak możemy wspólnie wzmocnić Twoją markę.",
+    href: "services/branding-i-identyfikacja-wizualna",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "Opakowania produktów",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+      "Tworzenie opakowań to kluczowy element marketingu, który wyróżnia produkt na rynku. Oferuję kompleksowe usługi, które łączą estetykę, funkcjonalność i innowacyjność, zapewniając doskonałą prezentację Twojej marki. Skontaktuj się ze mną, aby stworzyć opakowanie, które przyciągnie uwagę konsumentów.",
+    href: "services/opakowania-produktu",
   },
+
+  
 ];
 
 import { motion } from "framer-motion";
@@ -61,7 +63,7 @@ const Services = () => {
                   </div>
                   <Link
                     href={service.href}
-                    className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45"
+                    className="w-[50px] h-[50px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45"
                   >
                     <BsArrowDownRight className="text-primary text-3xl" />
                   </Link>

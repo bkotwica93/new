@@ -7,9 +7,11 @@ import {
   FaReact,
   FaFigma,
   FaNodeJs,
+  FaPhotoVideo,
+  FaBlender,
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiAdobephotoshop, SiAdobeillustrator, SiAdobeindesign, SiBlender, SiCoreldraw, SiAdobelightroom, SiAdobelightroomclassic } from "react-icons/si";
 
 // about data
 const about = {
@@ -19,7 +21,7 @@ const about = {
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Luke Coleman",
+      fieldValue: "Bartek Kotwica",
     },
     {
       fieldName: "Phone",
@@ -39,7 +41,7 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "luke.01@gmail.com",
+      fieldValue: "bkotwica93.@gmail.com",
     },
     {
       fieldName: "Freelance",
@@ -47,7 +49,7 @@ const about = {
     },
     {
       fieldName: "Languages",
-      fieldValue: "English, Spanish",
+      fieldValue: "Poland",
     },
   ],
 };
@@ -71,7 +73,7 @@ const experience = {
     },
     {
       company: "E-commerce Startup",
-      position: "Freelance Web Developer",
+      position: "Freelance Projektowanie okładek na płyty",
       duration: "2020 - 2021",
     },
     {
@@ -139,37 +141,34 @@ const skills = {
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
   skillList: [
     {
-      icon: <FaHtml5 />,
+      icon: <SiAdobephotoshop />,
       name: "html 5",
     },
     {
-      icon: <FaCss3 />,
+      icon: <SiAdobeillustrator />,
       name: "css 3",
     },
     {
-      icon: <FaJs />,
+      icon: <SiAdobeindesign />,
       name: "javascript",
     },
     {
-      icon: <FaReact />,
+      icon: <SiAdobelightroomclassic/>,
       name: "react.js",
     },
     {
-      icon: <SiNextdotjs />,
+      icon: <SiCoreldraw />,
       name: "next.js",
     },
     {
-      icon: <SiTailwindcss />,
+      icon: <SiBlender />,
       name: "tailwind.css",
     },
     {
-      icon: <FaNodeJs />,
+      icon: <FaFigma />,
       name: "node.js",
     },
-    {
-      icon: <FaFigma />,
-      name: "figma",
-    },
+    
   ],
 };
 
